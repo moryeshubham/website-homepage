@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Netflix Home Page.</title>
+
+<style>
+    body{
+   background-color: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+li{
+  display: inline;
+}
+
+
+#image{
+     background-image: url('https://hcdevilsadvocate.com/wp-content/uploads/2019/01/netflix-background-9.jpg');  
+     opacity:1.0;
+}
+
+
+
+@media only screen and (max-width: 1084px) {
+  #selectbox{
+    padding:0px 130px;
+  }  
+}
+
+
+@media only screen and (max-width: 1570px) {
+  #selectbox{
+    padding:0px 1250px;
+  }  
+}
+
+@media only screen and (max-width: 500px) {
+  #selectbox{
+    padding: 0px 300px;
+    height: 40px;
+  }  
+}
+
+
+#box{
+  background-color:Red;
+  border-radius:10px;
+  border:double;
+  border-color: Red;
+  margin-top:20px;
+  margin-right:20px;
+ 
+  
+}
+  
+
+#sentence{
+  font-size:60px;
+  text-align:center;
+}
+
+@media only screen and (max-width: 500px){
+ #sentence{
+  font-size:30px;
+  text-align:center;
+    margin-top:0px;
+}
+}
+ 
+
+#sentence_1{
+  font-size:30px;
+  text-align:center;
+}
+
+@media only screen and (max-width: 500px){
+ #sentence_1{
+  font-size:20px;
+  text-align:center;
+}
+}
+ 
+#sentence_2{
+  font-size:23px;
+  text-align:center;
+}
+
+
+@media only screen and (max-width: 500px){
+ #sentence_2{
+  font-size:15px;
+  text-align:center;
+}
+}
+
+
+
+#searchbox{
+text-align:center;
+box-sizing:border-box;
+  margin-bottom:60px;
+}
+
+
+
+#searchbox_1{
+text-align:center;
+box-sizing:border-box;
+height:40px; 
+ margin-bottom:100px;
+}
+
+#searchbox_2{
+  background-color:Red;
+ color: white;
+  border-color: Red;
+  text-align:center;
+  height:40px;
+ 
+ 
+}
+
+@media only screen and (max-width: 500px) {
+  #searchbox_1{
+text-align:center;
+box-sizing:border-box;
+height:20px;
+ size:"5";
+     margin-bottom:0px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+#searchbox_2{
+text-align:center;
+box-sizing:border-box;
+height:20px; 
+  margin-bottom:60px;
+  }
+}
+
+
+
+.line_1{
+  height:4px;
+  background-color:grey;
+  width:100%;
+  
+}
+
+
+#sent{
+  text-align:center;
+  margin-top:130px;
+  font-size:60px;
+}
+
+@media only screen and (max-width: 500px){
+ #sent{
+  font-size:33px;
+  text-align:center;
+   margin-top:80px;
+ 
+}
+}
+
+
+
+#sent_1{
+  text-align:center;
+  margin-bottom:100px;
+}
+
+@media only screen and (max-width: 500px){
+ #sent_1{
+  font-size:15px;
+  text-align:center;
+  margin-left:5px;
+  margin-right:5px;
+   margin-bottom:70px;
+}
+}
+
+
+.responsive {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+@media only screen and (max-width: 500px){
+.responsive {
+  width: 100%;
+  height: auto;
+  position:relative;
+
+}
+
+}
+
+
+
+.download{
+  font-size:60px;
+  text-align:center;
+  margin-top:140px;
+}
+
+@media only screen and (max-width: 500px){
+ .download{
+  font-size:30px;
+  text-align:center;
+    margin-top:90px;
+}
+}
+
+
+.download_1{
+  font-size:40px;
+  text-align:center;
+  margin-top:0px;
+  margin-bottom:60px;
+}
+
+@media only screen and (max-width: 500px){
+ .download_1{
+  font-size:15px;
+  text-align:center;
+    margin-top:10px;
+   margin-bottom:30px;
+}
+}
+
+
+.phone{
+   display: block;
+  width:640px;
+  height:650px;
+  text-align:center;
+  margin-left:380px;
+  margin-bottom:130px;
+}
+@media only screen and (max-width: 500px){
+.phone{
+  float:right;
+  width:300px;
+  height:400px;
+  margin-right:
+
+}
+
+}
+
+
+
+.line_2{
+  height:4px;
+  background-color:grey;
+  width:100%;
+  
+}
+
+
+.third_page{
+  font-size:80px;
+  text-align:center;
+  margin-top:140px;
+  
+}
+
+@media only screen and (max-width: 500px){
+ .third_page{
+  font-size:35px;
+  text-align:center;
+   margin-top:70px;
+ 
+}
+}
+
+
+
+
+.apple{
+  width:1000px;
+  height:650px;
+  margin-left:205px;
+ margin-bottom:70px;
+}
+
+
+@media only screen and (max-width: 500px){
+.apple {
+  width: 100%;
+  height: auto;
+  position:relative;
+ float:right
+
+}
+
+}
+
+
+.question{
+  margin-left:340px;
+  margin-top:140px;
+  margin-bottom:100px;
+}
+
+@media only screen and (max-width: 500px){
+.question {
+  width: 100%;
+  height: auto;
+  position:relative;
+  margin-bottom:50px;
+  float:right
+
+}
+
+}
+
+
+
+.line_3{
+  height:4px;
+  background-color:grey;
+  width:100%;
+  
+}
+
+
+.director{
+     color: white;
+  margin-top:100px;
+  margin-bottom:60px;
+  border-style: double;
+  padding-top:10px;
+   padding-bottom:10px;
+   padding-left:50px;
+}
+
+</style>
+
+</head>
+<body>
+  
+  
+<div id="image">
+ 
+<ul>
+  <img   src="http://de.web.img3.acsta.net/newsv7/21/01/14/09/04/5553488.jpg" width="100" 
+     height="50"/>
+  <li style="float:right"   class="dot" ><a id="box">Sign In</a></li>
+</ul>
+   
+<form id="selectbox">
+  
+  <select name="english">
+    <option value="English" selected> English</option>
+    <option value="Hindi" > हिंदी</option>
+    
+  </select>
+  </form>
+  
+  <p><br><br><br>
+     <font face = "Rockwell" >  <h1 id="sentence"> Unlimited movies, TV <br> shows and more. </h1></font>
+      
+  <h2 id="sentence_1">Watch anywhere. Cancel anytime.</h2>
+  <h3 id="sentence_2">Ready to watch? Enter your email to create or restart your membership.</h3>
+  </p>
+  
+  
+  <br>
+  
+  <p id="searchbox">
+  <input id="searchbox_1" type="text" placeholder="Email_ID" name="username" size="60"><input type="submit" id="searchbox_2" value="Get Started >" ></p>
+</form>
+ </div>
+<div class="line_1"> </div>
+
+
+  <div>
+    
+    <p>
+      <font face = "Rockwell" ><h1 id="sent">Enjoy on your TV.</h1></font>
+      <h1 id="sent_1">Watch on smart TVs, PlayStation, Xbox, <br>Chromecast, Apple TV, Blu-ray players <br> and more.</h1>
+    </p>
+    
+    <img   src="https://www.flixicam.com/img/blog/watch-netflix-on-tv.jpg" class="responsive"/>
+        <br><br><br><br>
+  </div>
+  
+
+<div class="line_1"> </div>
+  
+  <div>
+     <font face = "Rockwell" ><h1 class="download">Download your shows <br>to watch offline.</h1></font>
+    <h2 class="download_1">Save your favourites easily and always<br> have something to watch.
+    </h2>
+
+<br>
+    <p>
+    <img   src="https://screenshots.dgtcdn.net/images/t_app-cover-s,f_auto/p/5bc5a800-96d5-11e6-a612-00163ec9f5fa/812108785/netflix-screenshot.png" class="phone"/>
+    </p>
+</div>
+  
+
+  
+<div class="line_2"> </div>
+
+
+<div>
+  <h1 class="third_page">Watch everywhere.</h1>
+  <h2 class="download_1">Stream unlimited movies and TV shows on <br> your phone, tablet, laptop, and TV.</h2>
+  
+  <img src="https://i0.wp.com/mobilityarena.com/wp-content/uploads/2019/09/netflix-watch-everywhere.png?resize=600%2C350" class="apple" />
+  
+</div>  
+  
+
+
+
+
+<div class="line_1"> </div>
+
+<div><img src="https://s3.amazonaws.com/autogrow-s3/wp-content/uploads/2019/10/11162551/2019-10-10_2337.png" class="question" />
+</div>
+
+
+<address class="director">
+   Developed By 
+  <a href="mailto:shubhammorye3@gmail.com">Shubham Morye</a>
+</address>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+  
+</body>
+</html>
